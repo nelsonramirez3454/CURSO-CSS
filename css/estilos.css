@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://st.depositphotos.com/1815808/2309/i/950/depositphotos_23092824-stock-photo-white-wood-texture-background.jpg);
+}
+
+header, .main, footer{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+
+}
+
+header nav{
+    background:#000000;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+header nav ul li a:hover{
+    background: #fff;
+    color: #000000;
+}
+
+.main .article{
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+
+}
+
+.main .article article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 30%;
+    background: rgb(87, 87, 87);
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #000000;
+    color: #fff;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
